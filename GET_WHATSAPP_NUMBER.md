@@ -1,7 +1,7 @@
 # 🚀 Get Your Own WhatsApp Business Number
 
 ## Current Setup (Sandbox)
-- **Current Number:** +916261072872 (your number)
+- **Your personal WhatsApp:** (kept private)
 - **Twilio Number:** +14155238886 (sandbox - shared with all Twilio users)
 - **Limitation:** Users must send "join <code>" first
 
@@ -74,7 +74,7 @@ TWILIO_WHATSAPP_NUMBER=whatsapp:+14155551234
 ### Current Setup:
 - **Status:** ✅ Already configured
 - **Number:** +14155238886 (Twilio sandbox)
-- **Your WhatsApp:** +916261072872
+- **Your WhatsApp:** (kept private)
 
 ### How Users Connect:
 1. **Send WhatsApp message to:** +14155238886
@@ -137,7 +137,7 @@ TWILIO_WHATSAPP_NUMBER=whatsapp:+14155551234
 - [x] Webhook configured
 - [x] Bot responses working
 - [x] Website chatbot integrated
-- [x] Your WhatsApp number added (+916261072872)
+- [x] Your WhatsApp number added (kept private)
 
 ### To Do (When Ready for Production) 
 - [ ] Buy Twilio phone number
@@ -201,11 +201,11 @@ const phoneNumber = "919123456789" // Your unique number
 
 ---
 
-## 🎉 Your Current Integration
+### 🎉 Your Current Integration
 
 ### What's Working Now:
 ✅ **WhatsApp Bot:** +14155238886 (sandbox)  
-✅ **Your Number:** +916261072872 (receives messages)  
+✅ **Your personal number:** (receives messages)  
 ✅ **Website Chatbot:** Dark theme, file upload  
 ✅ **Bidirectional Sync:** Website ↔ WhatsApp  
 ✅ **Smart Responses:** Environmental, reports, support  

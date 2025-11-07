@@ -11,7 +11,7 @@
 - **Location:** Bottom-right floating button on all pages
 
 ### 2. 📱 **WhatsApp Bot Integration**
-- **Current Number:** +916261072872 (your WhatsApp)
+- **Current Number:** (your personal WhatsApp - kept private)
 - **Twilio Sandbox:** +14155238886 (shared)
 - **Smart auto-responses** for common queries
 - **Receives photos/videos** from users
@@ -27,7 +27,7 @@
 
 ### 4. 📞 **Multiple Contact Methods**
 - **💬 Website Chat:** Click chatbot icon
-- **📱 WhatsApp:** +916261072872 or click WhatsApp button
+- **📱 WhatsApp:** (your personal WhatsApp - kept private) or click WhatsApp button
 - **☎️ Voice Call:** Click "Call Support" (Twilio)
 - **All integrated** in one chatbot interface
 
@@ -177,7 +177,7 @@ Settings → Environment Variables
 
 ### Sandbox Mode (Active Now):
 - **WhatsApp Number:** +14155238886 (Twilio sandbox)
-- **Your Number:** +916261072872
+- **Your Number:** (kept private)
 - **Users must:** Send "join green-tiger" first
 - **Status:** ✅ Working
 - **Cost:** FREE

@@ -13,10 +13,26 @@ export async function POST(request: NextRequest) {
     // Validate phone number
     if (!to) {
       return NextResponse.json(
-        { error: 'Phone number is required' },
+        { success: false, message: 'Phone number is required' },
         { status: 400 }
       )
     }
+
+    // Check if Twilio is configured
+    if (!process.env.TWILIO_ACCOUNT_SID || !process.env.TWILIO_AUTH_TOKEN) {
+      return NextResponse.json(
+        { success: false, message: 'Twilio is not configured. Please use WhatsApp instead.' },
+        { status: 503 }
+      )
+    }
+
+    if (!process.env.TWILIO_PHONE_NUMBER) {
+      return NextResponse.json(
+        { success: false, message: 'Voice calls are not configured on the server. Please use the WhatsApp bot (+14155238886) or contact support.' },
+        { status: 503 }
+      )
+    }
+    
 
     const twilio = require('twilio')
     const client = twilio(
@@ -36,10 +52,10 @@ export async function POST(request: NextRequest) {
       message: 'Call initiated successfully' 
     })
 
-  } catch (error) {
+  } catch (error: any) {
     console.error('Twilio API error:', error)
     return NextResponse.json(
-      { error: 'Failed to initiate call' },
+      { success: false, message: error?.message || 'Failed to initiate call. Please use WhatsApp instead.' },
       { status: 500 }
     )
   }

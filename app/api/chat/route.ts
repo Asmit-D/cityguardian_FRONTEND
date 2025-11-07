@@ -131,31 +131,31 @@ function generateBotResponse(message: string, fileUrl?: string, fileType?: strin
 
   // Environmental queries
   if (lowerMessage.includes('pollution') || lowerMessage.includes('air quality') || lowerMessage.includes('aqi')) {
-    return "🌍 **Air Quality Monitoring**\n\nCurrent AQI levels are being monitored in real-time. Visit the Environmental Dashboard for detailed metrics, or send 'environmental' to our WhatsApp bot (+916261072872) for instant updates!";
+  return "🌍 **Air Quality Monitoring**\n\nCurrent AQI levels are being monitored in real-time. Visit the Environmental Dashboard for detailed metrics, or send 'environmental' to our WhatsApp bot (+14155238886) for instant updates!";
   }
 
   if (lowerMessage.includes('report') || lowerMessage.includes('issue') || lowerMessage.includes('complaint')) {
-    return "📋 **Report an Issue**\n\n1. Take a photo/video of the issue\n2. Upload it here or send to WhatsApp: +916261072872\n3. Our team will investigate within 24-48 hours\n\nYou can also call us directly using the 'Call Support' button!";
+  return "📋 **Report an Issue**\n\n1. Take a photo/video of the issue\n2. Upload it here or send to WhatsApp: +14155238886\n3. Our team will investigate within 24-48 hours\n\nYou can also call us directly using the 'Call Support' button!";
   }
 
   if (lowerMessage.includes('status') || lowerMessage.includes('track')) {
-    return "🔍 **Track Your Report**\n\nTo check your complaint status:\n1. Visit the Citizen Dashboard\n2. Go to 'My Reports'\n3. Or send your reference number to WhatsApp: +916261072872\n\nWe'll send real-time updates on WhatsApp!";
+  return "🔍 **Track Your Report**\n\nTo check your complaint status:\n1. Visit the Citizen Dashboard\n2. Go to 'My Reports'\n3. Or send your reference number to WhatsApp: +14155238886\n\nWe'll send real-time updates on WhatsApp!";
   }
 
   if (lowerMessage.includes('water') || lowerMessage.includes('drainage')) {
-    return "💧 **Water & Drainage Issues**\n\nFor water-related complaints:\n- Take a clear photo of the issue\n- Share your location\n- Upload here or send to WhatsApp: +916261072872\n\nEmergency? Call us using the 'Call Support' button!";
+  return "💧 **Water & Drainage Issues**\n\nFor water-related complaints:\n- Take a clear photo of the issue\n- Share your location\n- Upload here or send to WhatsApp: +14155238886\n\nEmergency? Call us using the 'Call Support' button!";
   }
 
   if (lowerMessage.includes('garbage') || lowerMessage.includes('waste') || lowerMessage.includes('trash')) {
-    return "🗑️ **Waste Management**\n\nReport garbage issues:\n1. Photo of the location\n2. Describe the problem\n3. Send to WhatsApp: +916261072872\n\nWe'll dispatch a cleanup team ASAP!";
+  return "🗑️ **Waste Management**\n\nReport garbage issues:\n1. Photo of the location\n2. Describe the problem\n3. Send to WhatsApp: +14155238886\n\nWe'll dispatch a cleanup team ASAP!";
   }
 
   if (lowerMessage.includes('whatsapp')) {
-    return "📱 **WhatsApp Bot**\n\nConnect with us on WhatsApp!\n\n**Number:** +916261072872\n\n✅ 24/7 automated responses\n✅ Send photos/videos\n✅ Track complaints\n✅ Get real-time updates\n\nJust save the number and start chatting!";
+  return "📱 **WhatsApp Bot**\n\nConnect with us on WhatsApp!\n\n**Number:** +14155238886\n\n✅ 24/7 automated responses\n✅ Send photos/videos\n✅ Track complaints\n✅ Get real-time updates\n\nJust save the number and start chatting!";
   }
 
   if (lowerMessage.includes('call') || lowerMessage.includes('phone') || lowerMessage.includes('contact')) {
-    return "📞 **Contact Support**\n\n1. **Call:** Click the 'Call Support' button below\n2. **WhatsApp:** +916261072872\n3. **Chat:** Right here! I'm available 24/7\n\nChoose what works best for you!";
+  return "📞 **Contact Support**\n\n1. **Call:** Click the 'Call Support' button below\n2. **WhatsApp:** +14155238886\n3. **Chat:** Right here! I'm available 24/7\n\nChoose what works best for you!";
   }
 
   if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey')) {
@@ -163,13 +163,13 @@ function generateBotResponse(message: string, fileUrl?: string, fileType?: strin
   }
 
   if (lowerMessage.includes('help')) {
-    return "🆘 **Quick Help Menu**\n\n1️⃣ **Report Issue** - Upload photo/video\n2️⃣ **Track Status** - Check your complaints\n3️⃣ **WhatsApp** - Chat on +916261072872\n4️⃣ **Call Support** - Speak to our team\n5️⃣ **Environmental Data** - View AQI & metrics\n\nWhat do you need help with?";
+  return "🆘 **Quick Help Menu**\n\n1️⃣ **Report Issue** - Upload photo/video\n2️⃣ **Track Status** - Check your complaints\n3️⃣ **WhatsApp** - Chat on +14155238886\n4️⃣ **Call Support** - Speak to our team\n5️⃣ **Environmental Data** - View AQI & metrics\n\nWhat do you need help with?";
   }
 
   if (lowerMessage.includes('thank')) {
-    return "😊 You're welcome! Feel free to reach out anytime on:\n\n💬 **Website Chat** (here)\n📱 **WhatsApp:** +916261072872\n📞 **Call:** Use 'Call Support' button\n\nWe're here to help!";
+  return "😊 You're welcome! Feel free to reach out anytime on:\n\n💬 **Website Chat** (here)\n📱 **WhatsApp:** +14155238886\n📞 **Call:** Use 'Call Support' button\n\nWe're here to help!";
   }
 
   // Default response
-  return "🤖 I'm here to help! You can:\n\n📸 **Upload photos/videos** of issues\n📱 **Connect on WhatsApp:** +916261072872\n📞 **Call support** using the button below\n📊 **Check environmental data** on the dashboard\n\nWhat would you like to do?";
+  return "🤖 I'm here to help! You can:\n\n📸 **Upload photos/videos** of issues\n📱 **Connect on WhatsApp:** +14155238886\n📞 **Call support** using the button below\n📊 **Check environmental data** on the dashboard\n\nWhat would you like to do?";
 }

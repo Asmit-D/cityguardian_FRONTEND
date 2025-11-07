@@ -126,7 +126,7 @@ export default function FloatingChatbot() {
   // Twilio call integration - This will need backend API endpoint
   const initiateTwilioCall = async () => {
     // Ask user for their phone number
-    const userPhone = prompt("Please enter your phone number (with country code, e.g., +919876543210):")
+    const userPhone = prompt("Please enter your phone number (with country code, e.g., +1234567890):")
     
     if (!userPhone) {
       return // User cancelled
@@ -134,7 +134,7 @@ export default function FloatingChatbot() {
 
     // Validate phone format
     if (!userPhone.startsWith('+')) {
-      alert("Please include country code with + sign (e.g., +91 for India)")
+      alert("Please include country code with + sign (e.g., +1 for USA, +91 for India)")
       return
     }
 
@@ -172,9 +172,6 @@ export default function FloatingChatbot() {
           aria-label="Open chat"
         >
           <MessageCircle className="w-8 h-8 text-black" />
-          <span className="absolute -top-1 -right-1 w-5 h-5 bg-green-400 rounded-full flex items-center justify-center text-black text-xs font-bold border-2 border-black animate-pulse">
-            !
-          </span>
         </button>
       )}
 

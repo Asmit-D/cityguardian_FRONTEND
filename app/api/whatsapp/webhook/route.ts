@@ -119,7 +119,7 @@ function getBotResponse(message: string, mediaUrl?: string, mediaType?: string):
   }
 
   if (!message) {
-    return "Hi! 👋 I'm CityGuardian Bot.\n\n🤖 Same AI on:\n📱 WhatsApp (+916261072872)\n💬 Website chat (cityguardian.vercel.app)\n\nHow can I help?"
+    return "Hi! 👋 I'm CityGuardian Bot.\n\n🤖 Same AI on:\n📱 WhatsApp (+14155238886)\n💬 Website chat (cityguardian.vercel.app)\n\nHow can I help?"
   }
 
   // Greetings
@@ -139,7 +139,7 @@ function getBotResponse(message: string, mediaUrl?: string, mediaType?: string):
   
   // Contact/Support
   if (message.includes("contact") || message.includes("support")) {
-    return "📞 *Contact CityGuardian*\n\n� *WhatsApp:* You're here! (+916261072872)\n🌐 *Website:* cityguardian.vercel.app\n� *Live Chat:* Chatbot on website\n☎️ *Voice:* 'Call Support' button\n\n✅ Same AI everywhere!\n✅ Synced conversations!\n\nHow can I assist?"
+  return "📞 *Contact CityGuardian*\n\n� *WhatsApp:* You're here! (+14155238886)\n🌐 *Website:* cityguardian.vercel.app\n� *Live Chat:* Chatbot on website\n☎️ *Voice:* 'Call Support' button\n\n✅ Same AI everywhere!\n✅ Synced conversations!\n\nHow can I assist?"
   }
   
   // Help menu
@@ -154,7 +154,7 @@ function getBotResponse(message: string, mediaUrl?: string, mediaType?: string):
 
   // Track status
   if (message.includes("status") || message.includes("track")) {
-    return "🔍 *Track Your Report*\n\n*Method 1:* Send reference # here\n*Method 2:* Visit cityguardian.vercel.app/citizen/dashboard\n\n💡 Updates sent to WhatsApp!\n\n📱 Save +916261072872 for notifications!"
+  return "🔍 *Track Your Report*\n\n*Method 1:* Send reference # here\n*Method 2:* Visit cityguardian.vercel.app/citizen/dashboard\n\n💡 Updates sent to WhatsApp!\n\n📱 Save +14155238886 for notifications!"
   }
   
   // Thank you
